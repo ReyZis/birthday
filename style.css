@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.theme {
+    background: black;
+    color: white;
+}
+
+.header-styling {
+    font: 5vw/79px 'Revalia', cursive;
+    height: 446px;
+    margin-bottom: 100px;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.card-theme {
+    padding: 30px;
+    font: 24px 'Red Hat Text', sans-serif;
+}
+
+.card1-placement {
+    width: 415px;
+}
+
+.card2-placement {
+    width: 299px;
+}
+
+.date-form-container form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.date-form-container form input[type='date'] {
+    border-radius: 0;
+    border: solid 2px black;
+    height: 40px;
+    width: 270px;
+    padding: 10px;
+}
+
+.date-form-container form input[type='submit'] {
+    border-radius: 0;
+    color: white;
+    background-color: black;
+    border: solid 2px black;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+}
+
+.date-form-container form input[type='submit']:focus,
+.date-form-container form input[type='date']:focus {
+    outline: none;
+}
+
+.result-theme {
+    border-radius: 30px;
+    width: 300px;
+}
+
+@media (min-width: 730px) {
+    .cards-container {
+        display: block;
+        margin-bottom: 100px;
+    }
+    .card1-placement {
+        margin-left: 10vw;
+    }
+    .card2-placement {
+        margin-left: 30vw;
+    }
+}
